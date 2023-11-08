@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.erikboros.requestsenderplugin</id>
-    <name>request-sender-plugin Template</name>
+    <name>Test Status Http Request Sender</name>
     <vendor>erikboros</vendor>
 
     <depends>com.intellij.modules.platform</depends>
@@ -9,7 +9,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.erikboros.requestsenderplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <toolWindow factoryClass="com.github.erikboros.requestsenderplugin.toolWindow.MyToolWindowFactory" id="RequestSender"/>
     </extensions>
 
     <applicationListeners>
